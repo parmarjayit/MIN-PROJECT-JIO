@@ -1,0 +1,65 @@
+.jay{
+    font-family: "Outfit", sans-serif;
+}
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    max-width: 1320px;
+}
+.box{
+    border: 1px solid black;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+.container-blue{
+    width: 100%;
+    background-color: #1144e4;
+}
+.text{
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+    border-radius: 50px;
+    font-family: "Outfit", sans-serif;
+    background-color: rgba(15, 23, 138, 0.795);
+}
+.text a{
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.text1 a{
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    text-decoration: none;
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+.fa-user{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
