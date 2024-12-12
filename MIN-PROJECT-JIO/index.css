@@ -1,13 +1,16 @@
 body{
-    background-color: black;
+    /* background-color: black; */
 }
 .jay{
     font-family: "Outfit", sans-serif;
 }
 *{
-    margin: auto;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+.margin{
+    margin: auto;
 }
 .container{
     margin: auto;
@@ -65,10 +68,11 @@ body{
 }
 .fa-magnifying-glass{
     font-size: 15px;
-    color: black;
+    color:black;
     background-color: white;
     padding: 8px;
     border-radius: 50%;
+    
 }
 .fa-user{
     font-size: 15px;
@@ -76,6 +80,9 @@ body{
     background-color: white;
     padding: 8px;
     border-radius: 50%;
+}
+.box a{
+    text-decoration: none;
 }
 .box img{
     width: 100%;
@@ -102,7 +109,7 @@ body{
     font-size: 20px;
     font-family: "Outfit", sans-serif;
     align-items: center;
-    color: white;
+    color: black;
     text-decoration: none;
     /* border: 1px solid black; */
     padding: 10px;
@@ -112,11 +119,11 @@ body{
     padding: 4px;
 }
 .text4{
-    height: 200px;
+    height: 150px;
     background-color:#1144e4;
     border-radius: 20px;
-    padding-left: 50px;
-    padding-top: 20px;
+    /* padding-left: 50px;
+    padding-top: 20px; */
 }
 .prepaid a{
     display: inline-block;
@@ -128,13 +135,10 @@ body{
     font-family: "Outfit", sans-serif;
     font-size: 20px;
     padding: 10px 150px 10px 10px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
 }
 .prepaid{
-    position: relative;   
+    position: relative;
+    padding-bottom: 20px; 
 }
 .postpaid{
     position: absolute;
@@ -147,4 +151,46 @@ body{
     font-family: "Outfit", sans-serif;
     font-size: 20px;
     padding: 5px 5px;
+}
+.jionumber{
+    /* width: 60%; */
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.text5{
+    padding: 10px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.justify{
+    justify-content: start;
+    align-content: start;
+    padding: 10px;
+}
+.d-flex1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.middle{
+    justify-content: center;
+    align-items: center;
+}
+.border-none{
+    border: none;
+}
+.display{
+    display: inline-block;
+}
+.text6 a{
+    /* border: 1px solid red; */
+    padding: 10px;
+    border-radius: 20px;
+   background-color: white;
+   color: black;
+   text-decoration: none;
+   font-family: "Outfit", sans-serif;
 }
