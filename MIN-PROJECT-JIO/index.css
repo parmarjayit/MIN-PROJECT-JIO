@@ -60,17 +60,23 @@ body{
     color: white;
     text-decoration: none;
 }
-.text1 a:hover{
+.navbar a:hover{
     text-decoration: underline;
     opacity: 0.6;
 }
-.text1 a{
+
+.text1:hover{
+    background-color: gainsboro;
+}
+.navbar a{
     font-size: 18px;
     font-family: "Outfit", sans-serif;
     color: white;
     font-weight: 600;
     padding: 20px;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 .fa-magnifying-glass{
     font-size: 15px;
@@ -149,7 +155,7 @@ body{
 .postpaid{
     position: absolute;
     top: 25px;
- left: 52%;
+    left: 52%;
     color: #b5b5b5;
     /* border: 1px solid red; */
     background-color:#1144e4;
@@ -315,4 +321,98 @@ body{
 .center{
     align-items: center;
     justify-content: center;
+}
+.fa-bars{
+    color: black;
+    background-color:white;
+    font-size: 20px;
+    padding: 5px;
+}
+.menu{
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-weight: 600;
+    padding:15px 10px;
+    text-decoration: none;
+}
+.justify3{
+    justify-content: center;
+    align-items: center;
+}
+.text10{
+    position: relative;
+}
+.myjio{
+    color: white;
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+.getready{
+    font-size: 40px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top: 210px;
+    left: 40px;
+}
+.just{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.603);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+}
+.down{
+    font-size: 20px;
+    color:white;
+    background-color: #1144e4;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.down:hover{
+    background-color: #4f76ebcc;
+}
+.down1{
+    font-size: 20px;
+    color:white;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    font-family: "Outfit", sans-serif;
+    position: absolute;
+    top: 400px;
+    left: 180px;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.down1:hover{
+   border: 1px solid rgba(255, 255, 255, 0.945);
+}
+.text11{
+    font-size: 18px;
+    text-align: center; 
+    padding-top: 10px;
+    color: rgba(19, 16, 16, 0.623);
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
 }
