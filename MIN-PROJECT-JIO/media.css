@@ -13,12 +13,19 @@
 .w-5{
     width: 80%;
 }
-.w-7{
-    width: 40%;
-}
 .w-6{
     width: 20%;
 }
+.w-7{
+    width: 40%;
+}
+.w-8{
+    width: 30%;
+}
+.w-9{
+    width: 70%;
+}
+
 .navbar{
     flex-direction: column;
     width: 100%;

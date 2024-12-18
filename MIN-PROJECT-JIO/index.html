@@ -181,7 +181,7 @@
      <div class="w-1 d-flex">
       <div class="d-flex">
         <div class="w-2 p-20">
-          <div class="text8 d-flex">
+          <div class="text8 d-flex ">
             <a href="">
               <img width="100%" src="img/leptop.webp" alt="">
               <P class="airfiber"> AIRFIBER</P>
@@ -277,7 +277,7 @@
           <div class="text8 d-flex">
             <a href="">
               <img width="100%" src="img/wegetable.webp" alt="">
-              <P class="goto"> Go to Jiomart</P>
+              <P class="goto"><i class="fa-solid fa-bag-shopping"></i>JioMart</P>
               <P class="beyond">It's time to try new <br> recipes</P>
               <P class="goto1"> Go to Jiomart</P>
             </a>
@@ -296,6 +296,42 @@
         </div>
       </div>
      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="w-1 bg-gray b-radius p-20 pt-100 ">
+        <div class="box d-flex pb-20">
+          <div class="w-8">
+            <div class="text13">
+               <div class="jio">Jio</div><div class="busines">Business</div>
+            </div>
+            <div class="text14">
+              <p class="lets">Let's shape the future <br> of your business <br> together</p>
+            </div>
+            <div class="text15">
+             <p class="lets1">Discover innovative digital solutions tailored for all business sectors.</p>
+            </div>
+            <button class="check">Check it out</button>
+          </div>
+          <div class="w-9 p-20">
+            <div class="container1">
+              <div class="jiobusiness">
+                <div class="box">
+                  <img class="pad" src="img/ranvir.webp" alt="">
+                </div>
+                <div class="box">
+                  <img class="pad" src="img/atm.webp" alt="">
+                </div>
+                <div class="box">
+                  <img class="pad" src="img/girl.webp" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -372,6 +408,38 @@
       // instead of a settings object
     ]
   });
+</script>
+
+
+
+
+<script>
+  
+$('.jiobusiness').slick({
+  centerMode: true,
+  centerPadding: '30px',
+  slidesToShow: 1,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
 </script>
 
 
