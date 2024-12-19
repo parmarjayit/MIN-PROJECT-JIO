@@ -16,6 +16,9 @@ body{
 .pb-20{
     padding-bottom: 20px;
 }
+.pb-100{
+    padding-bottom: 60px;
+}
 .jay{
     font-family: "Outfit", sans-serif;
 }
@@ -590,7 +593,7 @@ body{
 .check:hover{
     background-color:  #082781e7;
 }
-.slick-prev:before{
+.jiobusiness .slick-prev:before{
    color: black !important;
    font-size: 32px !important;
    position: absolute;
@@ -598,26 +601,126 @@ body{
    left: 700px;
    z-index: 10;
 }
-.slick-next:before{
+.jiobusiness .slick-next:before{
    color: black !important;
    font-size: 32px !important;
    position: absolute;
-   bottom: -210px;
+   bottom:-210px;
    right: 100px;
    z-index: 10;
 }
-
-.jiobusinessslick-prev:before{
-   color: black !important;
-   font-size: 32px !important;
-   position: absolute;
-   top: 100px;
-   left: 700px;
+.slidering .box{
+    position: relative;
 }
-.jiobusinessslick-next:before{
-   color: black !important;
-   font-size: 32px !important;
-   position: absolute;
-   bottom: 210px;
-   right: 100px;
+.slidering .slick-prev:before{
+    color: black !important;
+    font-size: 24px !important;
+    position: absolute ;
+    top: 240px;
+    left: 100px;
+    font-family: none;
+    border: 1px solid black;
+    padding: 5px 10px 10px 10px;
+    border-radius: 5px;
+}
+.slidering .slick-next:before{
+    color: black !important;
+    font-size: 24px !important;
+    position: absolute;
+    bottom: -250px;
+    right: 100px;
+    font-family: none;
+    border: 1px solid black;
+    padding: 5px 10px 10px 10px;
+    border-radius: 5px;
+}
+ .bigimg{
+    /* border: 1px solid red; */
+    padding: 10px;
+    position: relative;
+ }
+ .bigimg img{
+    border-radius: 20px;
+}
+.career{
+    font-size:40px ;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 45px;
+}
+.join{
+    font-size:20px ;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.726);
+    position: absolute;
+    top: 250px;
+    left: 45px;
+}
+.view{
+    font-size:16px ;
+    font-family: "nunito", sans-serif;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: #1144e4;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 340px;
+    left: 45px;
+}
+.view:hover{
+    background-color: #4b73ecde;
+}
+.container-blue-need{
+    width: 100%;
+    background-color: #1144e4;
+}
+.text16{
+    font-size: 64px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.text17{
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.text18{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.text18 a{
+    border: 1px solid rgba(245, 242, 242, 0.404);
+    border-radius: 40px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    font-family: "nunito", sans-serif;
+    font-weight: 600;
+}
+.text18 a:hover{
+    border: 1px solid rgba(255, 255, 255, 0.945);
+}
+.gap{
+    
+ display: flex; 
+ justify-content: center;
+ gap: 20px;
+padding-top: 40px;
+}
+.fa-phone{
+    font-size: 18px;
+}
+.ri-questionnaire-line{
+    font-size: 18px;
 }
